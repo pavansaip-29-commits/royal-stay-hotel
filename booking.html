@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book Your Stay at Royal Stay Hotel">
+    <title>Booking - Royal Stay Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Royal Stay Hotel</div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="features">
+        <h2>Book Your Stay</h2>
+
+        <form id="bookingForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <select id="room" required>
+                <option value="">Select Room</option>
+                <option>Deluxe Room</option>
+                <option>Executive Room</option>
+                <option>Family Suite</option>
+            </select>
+
+            <label>Check-In Date</label>
+            <input type="date" id="checkin" required>
+
+            <label>Check-Out Date</label>
+            <input type="date" id="checkout" required>
+
+            <button type="submit">Book Now</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Royal Stay Hotel | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
